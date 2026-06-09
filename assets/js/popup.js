@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container || !link || !versionEl || !dismissBtn) return
 
     versionEl.textContent = `v${notification.version}`
-    link.href = `https://github.com/8Thomas8/github-pr-tool-chrome-extension/releases/tag/${notification.version}`
+    link.href = `https://github.com/8Thomas8/tikhub-chrome-extension/releases/tag/${notification.version}`
     container.hidden = false
 
     link.addEventListener('click', () => {
