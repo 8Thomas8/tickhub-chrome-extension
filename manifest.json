@@ -1,9 +1,13 @@
 {
   "manifest_version": 3,
   "name": "TikHub",
-  "version": "0.1.11",
+  "version": "1.0.0",
   "description": "Mark all files as viewed / not viewed in GitHub pull requests.",
-  "permissions": ["activeTab", "storage", "scripting"],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -21,7 +25,9 @@
         "https://github.com/*/*/pull/*/files*",
         "https://github.com/*/*/pull/*/changes*"
       ],
-      "js": ["assets/js/content.js"]
+      "js": [
+        "assets/js/content.js"
+      ]
     }
   ]
 }
