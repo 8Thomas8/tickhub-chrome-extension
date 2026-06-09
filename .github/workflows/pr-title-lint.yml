@@ -1,0 +1,36 @@
+name: Lint PR Title
+
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+
+permissions:
+  pull-requests: read
+
+jobs:
+  validate:
+    name: Validate Conventional Commits
+    runs-on: ubuntu-latest
+    steps:
+      # The repo merges via squash: the PR title becomes the commit message on
+      # master, which is what release-please parses. It must follow the
+      # conventional commits format "type(scope): message".
+      - uses: amannn/action-semantic-pull-request@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          types: |
+            feat
+            fix
+            chore
+            ci
+            docs
+            style
+            refactor
+            perf
+            test
+            build
+          requireScope: false
