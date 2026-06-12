@@ -1,6 +1,6 @@
-# TikHub Chrome Extension
+# Tickhub Chrome Extension
 
-TikHub is a Chrome browser extension that streamlines the process of marking all files as viewed or unviewed in GitHub pull requests. The extension adds a convenient popup interface with buttons to check or uncheck all files in a pull request.
+Tickhub is a Chrome browser extension that streamlines the process of marking all files as viewed or unviewed in GitHub pull requests. The extension adds a convenient popup interface with buttons to check or uncheck all files in a pull request.
 
 **Always reference these instructions first and fallback to search or bash commands only when you encounter unexpected information that does not match the info here.**
 
@@ -99,7 +99,7 @@ Before committing changes, always run these exact commands that the CI pipeline 
 ### Preparing for Distribution
 
 1. Ensure all changes are committed and tested
-2. Run `make zip` to create `tikhub-chrome-extension.zip`
+2. Run `make zip` to create `tickhub-chrome-extension.zip`
 3. The zip file contains all necessary files for Chrome Web Store upload
 4. Run `make clean` to remove the zip file after upload
 

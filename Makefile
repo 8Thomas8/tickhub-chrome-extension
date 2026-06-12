@@ -1,5 +1,5 @@
 # Name of the zip
-EXT_NAME = tikhub-chrome-extension
+EXT_NAME = tickhub-chrome-extension
 ZIP_FILE = $(EXT_NAME).zip
 
 # Folders and files to include
