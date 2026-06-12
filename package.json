@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "tikhub",
+  "name": "tickhub",
   "scripts": {
     "lint": "eslint .",
     "format": "prettier --write ."
