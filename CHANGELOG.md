@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/8Thomas8/tickhub-chrome-extension/compare/1.0.0...1.0.1) (2026-06-12)
+
+
+### Bug Fixes
+
+* **Naming:** rename extension to Tickhub ([#63](https://github.com/8Thomas8/tickhub-chrome-extension/issues/63)) ([2a0bae5](https://github.com/8Thomas8/tickhub-chrome-extension/commit/2a0bae54b70ec59c22312957191608106cbd0290))
+
 ## [1.0.0](https://github.com/8Thomas8/tickhub-chrome-extension/compare/0.1.11...1.0.0) (2026-06-09)
 
 
